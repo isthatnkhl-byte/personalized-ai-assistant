@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+dist/
+build/
+
+# Binary executables and Electron packaged binaries
+*.exe
+*.dll
+*.pak
+*.bin
+*.dat
+*.asar*
+FlowHelper.exe
+resources/
+vk_swiftshader_icd.json
+
+# Local LLM weights and inference binaries
+llm/
+*.gguf
+
+# Log files and runtime traces
+*.log
+stderr.log
+stdout.log
+app_lifecycle.log
+fatal_error.log
+llama_server.log
+
+# Temporary and local editor state
+scratch/
+.vscode/
+.bionic_backups/
+locales/
+
+# Runtime session conversation snapshots and generated artifacts
+bionic/data/artifacts/
+bionic/data/conversations/
+bionic/data/tmp/
+bionic_data/artifacts/
+bionic_data/conversations/
+bionic_data/tmp/

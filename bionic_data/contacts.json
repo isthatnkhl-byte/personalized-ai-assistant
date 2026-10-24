@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Dave Miller",
+    "aliases": ["dave", "david"],
+    "email": "dave.miller@acme.com",
+    "role": "VP of Engineering",
+    "context": "Prefers concise updates, works in PST timezone"
+  },
+  {
+    "name": "Sarah Connor",
+    "aliases": ["sarah"],
+    "email": "sarah.connor@acme.com",
+    "role": "Product Lead",
+    "context": "Coordinates weekly sprint reviews and roadmap"
+  },
+  {
+    "name": "Alex Rivera",
+    "aliases": ["alex"],
+    "email": "alex.rivera@acme.com",
+    "role": "Frontend Architect",
+    "context": "Focuses on UI animations and accessibility"
+  }
+]

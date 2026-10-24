@@ -1,0 +1,174 @@
+{
+  "savedAt": "2026-10-23T16:37:11.720Z",
+  "nodeCount": 9,
+  "edgeCount": 9,
+  "nodes": [
+    {
+      "id": "krishna_maheshwari",
+      "label": "Krishna Maheshwari",
+      "type": "Person",
+      "properties": {
+        "role": "Founder & Lead Engineer",
+        "tone": "concise and professional"
+      },
+      "updatedAt": "2026-10-23T16:37:11.716Z"
+    },
+    {
+      "id": "bionic_gpt",
+      "label": "Bionic-GPT",
+      "type": "Agent",
+      "properties": {
+        "type": "Autonomous Personal Assistant",
+        "version": "2.0"
+      },
+      "updatedAt": "2026-10-23T16:37:11.716Z"
+    },
+    {
+      "id": "wispr_flow",
+      "label": "Wispr Flow",
+      "type": "Product",
+      "properties": {
+        "type": "Voice-to-Text & Desktop Agent Platform"
+      },
+      "updatedAt": "2026-10-23T16:37:11.716Z"
+    },
+    {
+      "id": "qwen_2_5_coder",
+      "label": "Qwen 2.5 Coder 3B",
+      "type": "Model",
+      "properties": {
+        "role": "Primary Local Sovereign LLM",
+        "context": 4096
+      },
+      "updatedAt": "2026-10-23T16:37:11.716Z"
+    },
+    {
+      "id": "tinyfish",
+      "label": "TinyFish",
+      "type": "Tool",
+      "properties": {
+        "type": "Real-time Web Search & Clean Scraping Agent"
+      },
+      "updatedAt": "2026-10-23T16:37:11.716Z"
+    },
+    {
+      "id": "antigravity",
+      "label": "Antigravity Protocol",
+      "type": "Framework",
+      "properties": {
+        "type": "AG-UI Protocol & Token Streaming"
+      },
+      "updatedAt": "2026-10-23T16:37:11.716Z"
+    },
+    {
+      "id": "vector_db",
+      "label": "Vector DB",
+      "type": "Architecture",
+      "properties": {
+        "type": "Cosine Similarity Semantic Memory"
+      },
+      "updatedAt": "2026-10-23T16:37:11.716Z"
+    },
+    {
+      "id": "knowledge_graph",
+      "label": "Knowledge Graph",
+      "type": "Architecture",
+      "properties": {
+        "type": "Entity-Relation-Entity Multi-Hop Graph Memory"
+      },
+      "updatedAt": "2026-10-23T16:37:11.716Z"
+    },
+    {
+      "id": "vfs",
+      "label": "Bionic VFS",
+      "type": "Architecture",
+      "properties": {
+        "type": "Sandboxed Virtual File System with SSRF Protection"
+      },
+      "updatedAt": "2026-10-23T16:37:11.716Z"
+    }
+  ],
+  "edges": [
+    {
+      "id": "krishna_maheshwari--[FOUNDED_AND_LEADS]-->bionic_gpt",
+      "source": "krishna_maheshwari",
+      "target": "bionic_gpt",
+      "predicate": "FOUNDED_AND_LEADS",
+      "weight": 1,
+      "properties": {},
+      "updatedAt": "2026-10-23T16:37:11.716Z"
+    },
+    {
+      "id": "krishna_maheshwari--[BUILT]-->wispr_flow",
+      "source": "krishna_maheshwari",
+      "target": "wispr_flow",
+      "predicate": "BUILT",
+      "weight": 1,
+      "properties": {},
+      "updatedAt": "2026-10-23T16:37:11.717Z"
+    },
+    {
+      "id": "bionic_gpt--[POWERED_BY]-->qwen_2_5_coder",
+      "source": "bionic_gpt",
+      "target": "qwen_2_5_coder",
+      "predicate": "POWERED_BY",
+      "weight": 1,
+      "properties": {},
+      "updatedAt": "2026-10-23T16:37:11.717Z"
+    },
+    {
+      "id": "bionic_gpt--[SEARCHES_WEB_VIA]-->tinyfish",
+      "source": "bionic_gpt",
+      "target": "tinyfish",
+      "predicate": "SEARCHES_WEB_VIA",
+      "weight": 1,
+      "properties": {},
+      "updatedAt": "2026-10-23T16:37:11.717Z"
+    },
+    {
+      "id": "bionic_gpt--[FOLLOWS_PROTOCOL]-->antigravity",
+      "source": "bionic_gpt",
+      "target": "antigravity",
+      "predicate": "FOLLOWS_PROTOCOL",
+      "weight": 1,
+      "properties": {},
+      "updatedAt": "2026-10-23T16:37:11.718Z"
+    },
+    {
+      "id": "bionic_gpt--[EMBEDS_MEMORY_WITH]-->vector_db",
+      "source": "bionic_gpt",
+      "target": "vector_db",
+      "predicate": "EMBEDS_MEMORY_WITH",
+      "weight": 1,
+      "properties": {},
+      "updatedAt": "2026-10-23T16:37:11.718Z"
+    },
+    {
+      "id": "bionic_gpt--[REASONS_OVER]-->knowledge_graph",
+      "source": "bionic_gpt",
+      "target": "knowledge_graph",
+      "predicate": "REASONS_OVER",
+      "weight": 1,
+      "properties": {},
+      "updatedAt": "2026-10-23T16:37:11.719Z"
+    },
+    {
+      "id": "bionic_gpt--[STORES_DATA_IN]-->vfs",
+      "source": "bionic_gpt",
+      "target": "vfs",
+      "predicate": "STORES_DATA_IN",
+      "weight": 1,
+      "properties": {},
+      "updatedAt": "2026-10-23T16:37:11.719Z"
+    },
+    {
+      "id": "wispr_flow--[HOSTS_COPILOT]-->bionic_gpt",
+      "source": "wispr_flow",
+      "target": "bionic_gpt",
+      "predicate": "HOSTS_COPILOT",
+      "weight": 1,
+      "properties": {},
+      "updatedAt": "2026-10-23T16:37:11.720Z"
+    }
+  ]
+}
